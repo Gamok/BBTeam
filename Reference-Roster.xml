@@ -1,0 +1,707 @@
+<?xml version ="1.0" encoding="UTF-8" standalone="yes" ?>
+<roster>
+    <team race="Amazones">
+        <player title="Trois-quart">
+            <quantity>16</quantity>
+            <cost>50000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>esquive</skills>
+            <normal>G</normal><double>A,F,P</double>
+        </player>
+        <player title="Passeuse">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>esquive,passe</skills>
+            <normal>G,P</normal><double>A,F</double>
+        </player>
+        <player title="Receveuse">
+            <quantity>16</quantity>
+            <cost>50000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>esquive,réception</skills>
+            <normal>G,A</normal><double>F,P</double>
+        </player>
+        <player title="Blitzeuse">
+            <quantity>4</quantity>
+            <cost>90000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>blocage,esquive</skills>
+            <normal>G,F</normal><double>A,P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Bas-Fond">
+        <player type="Gobelin">
+            <quantity>12</quantity>  
+            <cost>40000</cost>
+            <movement>6</movement><strength>2</strength><agility>3</agility><armour></armour><skills>Esquive, Minus, Poids plume</skills>
+            <normal>A, M</normal><double>G, F, P</double>
+        </player>
+        <player type="Trois-quart skaven">
+            <quantity>2</quantity>   
+            <cost>50000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour></armour><skills>Animosité</skills>
+            <normal>G, M</normal><double>A, F, P</double>
+        </player>
+        <player type="Lanceur skaven">
+            <quantity>2</quantity>   
+            <cost>70000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour></armour><skills>Animosité, Dextérité, Passe</skills>
+            <normal>G, P, M</normal><double>A, F</double>
+        </player>
+        <player type="Blitzer skaven">
+            <quantity>2</quantity>   
+            <cost>90000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour></armour><skills>Animosité, Blocage</skills>
+            <normal>G, F, M</normal><double>A, P</double>
+        </player>
+        <player type="Troll de malepierre">
+            <quantity>1</quantity>   
+            <cost>110000</cost>
+            <movement>4</movement><strength>5</strength><agility>1</agility><armour></armour><skills>Châtaigne, Gros débile, Lancer un coéquipier, Régénération, Solitaire, Toujours affamé</skills>
+            <normal>F, M</normal><double>G, A, P</double>
+        </player>
+    </team>
+    <team race="Chaos">
+        <player title="Homme bête">
+            <quantity>16</quantity>
+            <cost>60000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>cornes</skills>
+            <normal>G,F,M</normal><double>A,P</double>
+        </player>
+        <player title="Guerrier du Chaos">
+            <quantity>4</quantity>
+            <cost>100000</cost>
+            <movement>5</movement><strength>4</strength><agility>3</agility><armour>9</armour><skills/>
+            <normal>G,F,M</normal><double>A,P</double>
+        </player>
+        <player title="Minotaure du Chaos">
+            <quantity>1</quantity>
+            <cost>150000</cost>
+            <movement>5</movement><strength>5</strength><agility>2</agility><armour>8</armour><skills>Animal sauvage, Châtaigne, Cornes, Crâne épais, Frénésie, Solitaire</skills>
+            <normal>F,M</normal><double>G,A,P</double>
+        </player>
+        <reroll>60000</reroll>
+    </team>
+    <team race="Elfes noirs">
+        <player title="Trois-quart">
+            <quantity>16</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills/>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Coureur">
+            <quantity>2</quantity>
+            <cost>80000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Passe rapide</skills>
+            <normal>G, A, P</normal><double>F</double>
+        </player>
+        <player title="Assassin">
+            <quantity>2</quantity>
+            <cost>0000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Poignard, Poursuite</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Blitzer">
+            <quantity>4</quantity>
+            <cost>100000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills>Blocage</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Furie">
+            <quantity>2</quantity>
+            <cost>10000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Bond, Esquive, Frénésie</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Elfes">
+        <player title="Trois-quart">
+            <quantity>16</quantity>
+            <cost>60000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills/>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Lanceur">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Passe</skills>
+            <normal>G, A, P</normal><double>F</double>
+        </player>
+        <player title="Receveur">
+            <quantity>4</quantity>
+            <cost>100000</cost>
+            <movement>8</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Nerfs d'acier, Réception</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Coureur">
+            <quantity>2</quantity>
+            <cost>110000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills>Blocage, Glissade contrôlée</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Elfes sylvains">
+        <player title="Trois-quart">
+            <quantity>16</quantity>
+            <cost>70000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills/>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Lanceur">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Passe</skills>
+            <normal>G, A, P</normal><double>F</double>
+        </player>
+        <player title="Receveur">
+            <quantity>4</quantity>
+            <cost>90000</cost>
+            <movement>8</movement><strength>2</strength><agility>4</agility><armour>7</armour><skills>Esquive, Réception, Sprint</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Danseur de guerre">
+            <quantity>2</quantity>
+            <cost>120000</cost>
+            <movement>8</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Blocage, Esquive, Saut</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Homme arbre">
+            <quantity>1</quantity>
+            <cost>120000</cost>
+            <movement>2</movement><strength>6</strength><agility>1</agility><armour>10</armour><skills>Châtaigne, Costaud, Crâne épais, Lancer un coéquipier, Prendre racine, Solitaire, Stabilité</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Gobelins">
+        <player title="Gobelin">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Esquive, Minus, Poids plume</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Bombardier gobelin">
+            <quantity>1</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Arme secrète, Bombardier, Esquive, Minus</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Cinglé">
+            <quantity>1</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Arme secrète, Minus, Tronçonneuse</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Fanatique">
+            <quantity>1</quantity>
+            <cost>70000</cost>
+            <movement>3</movement><strength>7</strength><agility>3</agility><armour>7</armour><skills>Arme secrète, Chaine et boulet, Manchot, Minus</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <player title="Sauteur">
+            <quantity>1</quantity>
+            <cost>70000</cost>
+            <movement>7</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Esquive, Minus, Saut, Très longues jambes</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Troll">
+            <quantity>2</quantity>
+            <cost>110000</cost>
+            <movement>4</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Châtaigne, Gros débile, Lancer un coéquipier, Régénération, Solitaire, Toujours affamé</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>60000</reroll>
+    </team>
+    <team race="Halflings">
+        <player title="Halfling">
+            <quantity>16</quantity>
+            <cost>30000</cost>
+            <movement>5</movement><strength>2</strength><agility>3</agility><armour>6</armour><skills>Esquive, Minus, Poids plume</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Homme arbre">
+            <quantity>2</quantity>
+            <cost>120000</cost>
+            <movement>2</movement><strength>6</strength><agility>1</agility><armour>10</armour><skills>Châtaigne, Costaud, Crâne épais, Lancer un coéquipier, Prendre racine, Stabilité</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>60000</reroll>
+    </team>
+    <team race="Hauts elfes">
+        <player title="Trois-quart">
+            <quantity>16</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills/>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Lanceur">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills>Lancer précis, Passe</skills>
+            <normal>G, A, P</normal><double>F</double>
+        </player>
+        <player title="Receveur">
+            <quantity>4</quantity>
+            <cost>90000</cost>
+            <movement>8</movement><strength>3</strength><agility>4</agility><armour>7</armour><skills>Réception</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Blitzer">
+            <quantity>2</quantity>
+            <cost>100000</cost>
+            <movement>7</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills>Blocage</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Hommes lézards">
+        <player title="Skink">
+            <quantity>16</quantity>
+            <cost>60000</cost>
+            <movement>8</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Esquive, Minus</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Saurus">
+            <quantity>6</quantity>
+            <cost>80000</cost>
+            <movement>6</movement><strength>4</strength><agility>1</agility><armour>9</armour><skills/>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Kroxigor">
+            <quantity>1</quantity>
+            <cost>140000</cost>
+            <movement>6</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Cerveau lent, Châtaigne, Crâne épais, Queue préhensile, Solitaire</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>60000</reroll>
+   	</team>
+    <team race="Humains">
+        <player title="Trois-quart">
+            <quantity>16</quantity>
+            <cost>50000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills/>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Lanceur">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Dextérité, Passe</skills>
+            <normal>G, P</normal><double>A, F</double>
+        </player>
+        <player title="Receveur">
+            <quantity>4</quantity>
+            <cost>70000</cost>
+            <movement>8</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Esquive, Réception</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Blitzer">
+            <quantity>4</quantity>
+            <cost>90000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Blocage</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Ogre">
+            <quantity>1</quantity>
+            <cost>140000</cost>
+            <movement>5</movement><strength>5</strength><agility>2</agility><armour>9</armour><skills>Cerveau lent, Châtaigne, Crâne épais, Lancer un coéquipier, Solitaire</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Khemri">
+        <player title="Squelette">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>5</movement><strength>3</strength><agility>2</agility><armour>7</armour><skills>Crâne épais, Régénération</skills>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Thro-Ra">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>2</agility><armour>7</armour><skills>Dextérité, Passe, Régénération</skills>
+            <normal>G, P</normal><double>A, F</double>
+        </player>
+        <player title="Blitz-Ra">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>6</movement><strength>3</strength><agility>2</agility><armour>8</armour><skills>Blocage, Régénération</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Gardien des tombes">
+            <quantity>4</quantity>
+            <cost>100000</cost>
+            <movement>4</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Décomposition, Régénération</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Morts-vivants">
+        <player title="Squelette">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>5</movement><strength>3</strength><agility>2</agility><armour>7</armour><skills>Crâne épais, Régénération</skills>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Zombie">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>4</movement><strength>3</strength><agility>2</agility><armour>8</armour><skills>Régénération</skills>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Goule">
+            <quantity>4</quantity>
+            <cost>70000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Esquive</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Revenant">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Blocage, Régénération</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Momie">
+            <quantity>2</quantity>
+            <cost>120000</cost>
+            <movement>3</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Châtaigne, Régénération</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Nains">
+        <player title="Bloqueur nain">
+            <quantity>16</quantity>
+            <cost>70000</cost>
+            <movement>4</movement><strength>3</strength><agility>2</agility><armour>9</armour><skills>Blocage, Crâne épais, Tacle</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Coureur nain">
+            <quantity>2</quantity>
+            <cost>80000</cost>
+            <movement>5</movement><strength>3</strength><agility>3</agility><armour>9</armour><skills>Blocage, Crâne épais</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Sprinteur nain">
+            <quantity>2</quantity>
+            <cost>80000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Crâne épais, Dextérité</skills>
+            <normal>G, P</normal><double>A, F</double>
+        </player>
+        <player title="Tueur de trolls">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>5</movement><strength>3</strength><agility>2</agility><armour>8</armour><skills>Blocage, Crâne épais, Frénésie, Intrépidité</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Roule mort">
+            <quantity>1</quantity>
+            <cost>160000</cost>
+            <movement>4</movement><strength>7</strength><agility>1</agility><armour>10</armour><skills>Arme secrète, Châtaigne, Esquive en strength, Joueur vicieux, Manchot, Poids lourd, Solitaire, Stabilité</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Nains du chaos">
+        <player title="Hobgobelin">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills/>
+            
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Nain du Chaos">
+            <quantity>6</quantity>
+            <cost>70000</cost>
+            <movement>4</movement><strength>3</strength><agility>2</agility><armour>9</armour><skills>Blocage, Crâne épais, Tacle</skills>
+            <normal>G, F</normal><double>A, P, M</double>
+        </player>
+        <player title="Centaure taureau">
+            <quantity>2</quantity>
+            <cost>130000</cost>
+            <movement>6</movement><strength>4</strength><agility>2</agility><armour>9</armour><skills>Crâne épais, Equilibre, Sprint</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Minotaure">
+            <quantity>1</quantity>
+            <cost>150000</cost>
+            <movement>5</movement><strength>5</strength><agility>2</agility><armour>8</armour><skills>Animal sauvage, Châtaigne, Cornes, Crâne épais, Frénésie, Solitaire</skills>
+            <normal>F</normal><double>G, A, P, M</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Nécromanciens">
+        <player title="Zombie">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>4</movement><strength>3</strength><agility>2</agility><armour>8</armour><skills>Régénération</skills>
+            
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Goule">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Esquive</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Revenant">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Blocage, Régénération</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Golem de chair">
+            <quantity>2</quantity>
+            <cost>110000</cost>
+            <movement>4</movement><strength>4</strength><agility>2</agility><armour>9</armour><skills>Crâne épais, Régénération, Stabilité</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Loup-garou">
+            <quantity>2</quantity>
+            <cost>120000</cost>
+            <movement>8</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Frénésie, Griffes, Régénération</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Nordiques">
+        <player title="Trois-quart nordique">
+            <quantity>16</quantity>
+            <cost>50000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Blocage</skills>
+            
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Lanceur nordique">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Blocage, Passe</skills>
+            <normal>G, P</normal><double>A, F</double>
+        </player>
+        <player title="Berserker">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Blocage, Bond, Frénésie</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Coureur nordique">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Blocage, Intrépidité</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Ulfwerener">
+            <quantity>2</quantity>
+            <cost>110000</cost>
+            <movement>6</movement><strength>4</strength><agility>2</agility><armour>8</armour><skills>Frénésie</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Troll des neiges">
+            <quantity>1</quantity>
+            <cost>140000</cost>
+            <movement>5</movement><strength>5</strength><agility>1</agility><armour>8</armour><skills>Animal sauvage, Frénésie, Griffes, Présence perturbante, Solitaire</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>60000</reroll>
+    </team>
+    <team race="Nurgle">
+        <player title="Pourri">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>5</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Décomposition, Pourriture de Nurgle</skills>
+            <normal>G, M</normal><double>A, F, P</double>
+        </player>
+        <player title="Pestigor">
+            <quantity>4</quantity>
+            <cost>80000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Cornes, Pourriture de Nurgle, Régénération</skills>
+            <normal>G, F, M</normal><double>A, P</double>
+        </player>
+        <player title="Guerrier de Nurgle">
+            <quantity>4</quantity>
+            <cost>110000</cost>
+            <movement>4</movement><strength>4</strength><agility>2</agility><armour>9</armour><skills>Pourriture de Nurgle, Présence perturbante, Régénération, Répulsion</skills>
+            <normal>G, F, M</normal><double>A, P</double>
+        </player>
+        <player title="Bête de Nurgle">
+            <quantity>1</quantity>
+            <cost>140000</cost>
+            <movement>4</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Châtaigne, Gros débile, Pourriture de Nurgle, Présence perturbante, Régénération, Répulsion, Solitaire, Tentacules</skills>
+            <normal>F</normal><double>G, A, P, M</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Ogres">
+        <player title="Snotling">
+            <quantity>16</quantity>
+            <cost>20000</cost>
+            <movement>5</movement><strength>1</strength><agility>3</agility><armour>5</armour><skills>Esquive, Glissade contrôlée, Microbe, Minus, Poids plume</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Ogre">
+            <quantity>6</quantity>
+            <cost>140000</cost>
+            <movement>5</movement><strength>5</strength><agility>2</agility><armour>9</armour><skills>Cerveau lent, Châtaigne, Crâne épais, Lancer un coéquipier</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Orques">
+        <player title="Trois-quart orque">
+            <quantity>16</quantity>
+            <cost>50000</cost>
+            <movement>5</movement><strength>3</strength><agility>3</agility><armour>9</armour><skills/>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Gobelin">
+            <quantity>4</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Esquive, Minus, Poids plume</skills>
+            <normal>A</normal><double>G, F, P</double>
+        </player>
+        <player title="Lanceur orque">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>5</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Dextérité, Passe</skills>
+            <normal>G, P</normal><double>A, F</double>
+        </player>
+        <player title="Coureur orque">
+            <quantity>4</quantity>
+            <cost>80000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>9</armour><skills>Blocage</skills>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Orque noir">
+            <quantity>4</quantity>
+            <cost>80000</cost>
+            <movement>4</movement><strength>4</strength><agility>2</agility><armour>9</armour><skills/>
+            <normal>G, F</normal><double>A, P</double>
+        </player>
+        <player title="Troll">
+            <quantity>1</quantity>
+            <cost>110000</cost>
+            <movement>4</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Châtaigne, Gros débile, Lancer un coéquipier, Régénération, Solitaire, Toujours affamé</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>60000</reroll>
+    </team>
+    <team race="Pacte du chaos">
+        <player title="Maraudeur">
+            <quantity>12</quantity>
+            <cost>50000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills/>
+            <normal>G, F, P, M</normal><double>A</double>
+        </player>
+        <player title="Renégat Gobelin">
+            <quantity>1</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>2</strength><agility>3</agility><armour>7</armour><skills>Animosité, Esquive, Minus, Poids plume</skills>
+            <normal>A, M</normal><double>G, F, P</double>
+        </player>
+        <player title="Renégat Skaven">
+            <quantity>1</quantity>
+            <cost>50000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Animosité</skills>
+            <normal>G, M</normal><double>A, F, P</double>
+        </player>
+        <player title="Renégat Elfe noir">
+            <quantity>1</quantity>
+            <cost>70000</cost>
+            <movement>6</movement><strength>3</strength><agility>4</agility><armour>8</armour><skills>Animosité</skills>
+            <normal>G, A, M</normal><double>F, P</double>
+        </player>
+        <player title="Troll du Chaos">
+            <quantity>1</quantity>
+            <cost>110000</cost>
+            <movement>4</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Châtaigne, Gros débile, Lancer un coéquipier, Régénération, Solitaire, Toujours affamé</skills>
+            <normal>F</normal><double>G, A, P, M</double>
+        </player>
+        <player title="Ogre du Chaos">
+            <quantity>1</quantity>
+            <cost>140000</cost>
+            <movement>5</movement><strength>5</strength><agility>2</agility><armour>9</armour><skills>Cerveau lent, Châtaigne, Crâne épais, Lancer un coéquipier, Solitaire</skills>
+            <normal>F</normal><double>G, A, P, M</double>
+        </player>
+        <player title="Minotaure">
+            <quantity>1</quantity>
+            <cost>150000</cost>
+            <movement>5</movement><strength>5</strength><agility>2</agility><armour>8</armour><skills>Animal sauvage, Châtaigne, Cornes, Crâne épais, Frénésie, Solitaire</skills>
+            <normal>F</normal><double>G, A, P, M</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+    <team race="Skavens">
+        <player title="Trois-quart skaven">
+            <quantity>16</quantity>
+            <cost>50000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills/>
+            <normal>G</normal><double>A, F, P, M</double>
+        </player>
+        <player title="Lanceur skaven">
+            <quantity>2</quantity>
+            <cost>70000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills>Dextérité, Passe</skills>
+            <normal>G, P</normal><double>A, F, M</double>
+        </player>
+        <player title="Coureur d'égouts">
+            <quantity>4</quantity>
+            <cost>80000</cost>
+            <movement>9</movement><strength>2</strength><agility>4</agility><armour>7</armour><skills>Esquive</skills>
+            <normal>G, A</normal><double>F, P, M</double>
+        </player>
+        <player title="Vermine de choc">
+            <quantity>2</quantity>
+            <cost>90000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Blocage</skills>
+            <normal>G, F</normal><double>A, P, M</double>
+        </player>
+        <player title="Rat ogre">
+            <quantity>1</quantity>
+            <cost>150000</cost>
+            <movement>6</movement><strength>5</strength><agility>2</agility><armour>8</armour><skills>Animal sauvage, Châtaigne, Frénésie, Queue préhensile, Solitaire</skills>
+            <normal>F</normal><double>G, A, P, M</double>
+        </player>
+        <reroll>60000</reroll>
+    </team>
+    <team race="Slanns">
+        <player title="Trois-quart slann">
+            <quantity>16</quantity>
+            <cost>60000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Saut, Très longues jambes</skills>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Receveur slann">
+            <quantity>4</quantity>
+            <cost>80000</cost>
+            <movement>7</movement><strength>2</strength><agility>4</agility><armour>7</armour><skills>Plongeon, Saut, Très longues jambes</skills>
+            <normal>G, A</normal><double>F, P</double>
+        </player>
+        <player title="Blitzer slann">
+            <quantity>4</quantity>
+            <cost>110000</cost>
+            <movement>7</movement><strength>3</strength><agility>3</agility><armour>8</armour><skills>Bond, Saut, Tacle plongeant, Très longues jambes</skills>
+            <normal>G, A, F</normal><double>P</double>
+        </player>
+        <player title="Kroxigor">
+            <quantity>1</quantity>
+            <cost>140000</cost>
+            <movement>6</movement><strength>5</strength><agility>1</agility><armour>9</armour><skills>Cerveau lent, Châtaigne, Crâne épais, Queue préhensile, Solitaire</skills>
+            <normal>F</normal><double>G, A, P</double>
+        </player>
+        <reroll>50000</reroll>
+    </team>
+    <team race="Vampires">
+        <player title="Esclave">
+            <quantity>16</quantity>
+            <cost>40000</cost>
+            <movement>6</movement><strength>3</strength><agility>3</agility><armour>7</armour><skills/>
+            <normal>G</normal><double>A, F, P</double>
+        </player>
+        <player title="Vampire">
+            <quantity>6</quantity>
+            <cost>110000</cost>
+            <movement>6</movement><strength>4</strength><agility>4</agility><armour>8</armour><skills>Regard hypnotique, Régénération, Soif de sang</skills>
+            <normal>G, A, F</normal><double>P</double>
+        </player>
+        <reroll>70000</reroll>
+    </team>
+</roster>
